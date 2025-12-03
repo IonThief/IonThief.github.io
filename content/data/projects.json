@@ -1,0 +1,32 @@
+[
+  {
+    "id": "shape-future",
+    "title": "Shape Future",
+    "role": "CV Engineer",
+    "date": "May 2024 - Present",
+    "tech": ["Spikingjelly", "SNNTorch", "PyTorch"],
+    "description": "Designing an SNN architecture for BEV object detection, adapting VGG/ResNet-style backbones and custom SSD-based heads for neuromorphic data (NOTE: the cars in the image are detected using the SNN model, which is known for its difficult training).",
+    "image": "/images/projects/shapefuture_detected_cars_3d.png",
+    "link": "https://www.linkedin.com/company/shape-future-project/about/"
+  },
+  {
+    "id": "ai4csm-demo-video",
+    "title": "Technical Demo Video",
+    "role": "Creator",
+    "date": "Sep 2024 - Feb 2025",
+    "tech": ["Unreal Engine 5", "Gaussian Splatting"],
+    "description": "Produced a technical demo for AI4CSM.",
+    "image": "/images/projects/ai4csm_demo_video.png",
+    "link": "https://www.youtube.com/watch?v=OS_07m3dMXU"
+  },
+  {
+    "id": "ai4csm",
+    "title": "AI4CSM",
+    "role": "CV Engineer",
+    "date": "Jan 2023 - Apr 2024",
+    "tech": ["Open3D", "NumPy", "PyTorch"],
+    "description": "Fused Pointclouds from multiple ToF cameras via global registration and ICP.",
+    "image": "/images/projects/ai4csm_registration_flow.png",
+    "link": "https://www.ai4csm.eu"
+  }
+]

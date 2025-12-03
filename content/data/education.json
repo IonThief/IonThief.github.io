@@ -1,0 +1,18 @@
+[
+  {
+    "id": "edu-1",
+    "degree": "M.Sc. in Electrical Engineering",
+    "school": "Riga Technical University",
+    "date": "Sep 2020 - Jun 2023",
+    "grade": "CGPA: 7.67/10.00",
+    "description": ""
+  },
+  {
+    "id": "edu-2",
+    "degree": "B.Sc. in Mechatronics Engineering",
+    "school": "Zagazig University",
+    "date": "Sep 2014 - Jun 2019",
+    "grade": "CGPA: 3.20/4.00",
+    "description": ""
+  }
+]

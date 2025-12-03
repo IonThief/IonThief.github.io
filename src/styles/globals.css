@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 248, 250, 252;
+  --background-start-rgb: 15, 23, 42;
+  --background-end-rgb: 15, 23, 42;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes subtle-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.project-card-glow {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  /* Initial border visibility */
+  border: 1px solid var(--colors-slate-700);
+}
+
+.project-card-glow:hover::before {
+  opacity: 0.7;
+  animation-play-state: running;
+}
+
+.project-card-glow:hover {
+  border-color: transparent;
+}
+
+.project-card-glow {
+  --colors-primary: #14B8A6; /* Teal 500 */
+  --colors-slate-700: #334155; /* Slate 700 */
+}

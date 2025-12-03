@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pub-1",
+    "title": "Distributed Time-of-Flight Sensor System for Autonomous Vehicles: Architecture, Sensor Fusion, and Spiking Neural Network Perception",
+    "venue": "MDPI Electronics",
+    "year": "2025",
+    "doi": "10.3390/electronics14071375",
+    "link": "https://doi.org/10.3390/electronics14071375",
+    "image": "/images/abstracts/a_distributed_time_of_flight_sensor_system_for_autonomous_vehicles_architecture_sensor_fusion_and_spiking_neural_network_perception_abstract.png"
+  },
+  {
+    "id": "pub-2",
+    "title": "Deviations Detection in Registered 3D Point Clouds",
+    "venue": "Biennial Baltic Electronics Conference",
+    "year": "2024",
+    "doi": "10.1109/BEC61458.2024.10737935",
+    "link": "https://doi.org/10.1109/BEC61458.2024.10737935",
+    "image": "/images/abstracts/deviations_detection_in_registered_3d_point_clouds_abstract.png"
+  }
+]
