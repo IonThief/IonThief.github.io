@@ -1,0 +1,78 @@
+---
+title: 'Percentiles & Quartiles Explained'
+date: '2025-12-29'
+excerpt: 'A simple guide to understanding percentiles and quartiles in data analysis.'
+tags: ['Data-Analysis', 'Statistics', 'Percentiles', 'Quartiles']
+image: '/images/blog/percentiles_and_quartiles/thumbnail.gif'
+---
+
+## 1. What are they?
+
+Think of percentiles as a ranking system.
+
+![GIF: A line of stick figures sorting themselves by height](/images/blog/percentiles_and_quartiles/sorting-people.gif)
+
+* **Percentile ($P$):** The value below which $P\%$ of the data falls.
+* **Quartiles:** Landmarks that split the sorted data into 4 equal chunks.
+
+### Visualizing the Split
+
+![GIF: A cake being cut into 4 equal slices](/images/blog/percentiles_and_quartiles/quartile-split.gif)
+
+1.  **Q1 (25th Percentile):** The cutoff for the bottom 25%.
+2.  **Q2 (50th Percentile):** The **Median**. The exact middle.
+3.  **Q3 (75th Percentile):** The cutoff for the top 25%.
+
+---
+
+## 2. Why do we care?
+
+Averages (Mean) lie when outliers exist. Percentiles tell the truth.
+
+![GIF: One giant person entering a room and skewing the average height](/images/blog/percentiles_and_quartiles/outlier-skew.gif)
+
+* **The Lie:** "Average income is $100k" (Skewed by one billionaire).
+* **The Truth:** "50th Percentile (Median) income is $40k".
+
+---
+
+## 3. How to Find Them (Step-by-Step)
+
+![GIF: Numbers shuffling into order and then being highlighted](/images/blog/percentiles_and_quartiles/calc-steps.gif)
+
+1.  **Sort** your list from smallest to largest.
+2.  **Find the middle** number. This is **Q2 (Median)**.
+3.  **Split** the list into a lower half and an upper half.
+4.  **Find the middle** of the lower half. This is **Q1**.
+5.  **Find the middle** of the upper half. This is **Q3**.
+
+---
+
+## 4. Decision Guide
+
+<table>
+  <thead>
+    <tr>
+      <th>Observation</th>
+      <th>Meaning</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Q3 is very high, Q1 is low</strong></td>
+      <td>Huge variation.</td>
+      <td><strong>Binning.</strong> Group data into "Low", "Medium", "High".</td>
+    </tr>
+    <tr>
+      <td><strong>Median (Q2) is far from Mean</strong></td>
+      <td>Skewed Data.</td>
+      <td><strong>Log Transform.</strong> The distribution is not a bell curve.</td>
+    </tr>
+    <tr>
+      <td><strong>Q1 and Q3 are close together</strong></td>
+      <td>Consistent Data.</td>
+      <td><strong>Good Stability.</strong> Reliable for most models.</td>
+    </tr>
+  </tbody>
+</table>
